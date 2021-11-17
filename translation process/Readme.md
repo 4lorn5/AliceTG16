@@ -71,7 +71,7 @@ Literally, the first Magic Book at Alice's disposal is called "Red Magic", which
 
 ![Test Image 7](https://i.ibb.co/7zNBVpL/Alice-6.png) 
 
-![Test Image 8](https://i.ibb.co/7zNBVpL/Alice-7.png) 
+![Test Image 8](https://i.ibb.co/GTLzy7B/Alice-7.png) 
 
 According to our table, the diacritic ” equals a character value of 66. So why is it not present in this specific line of code? Because it's printing them a line above. Let's look more carefully at the "Red Magic" string:
 
