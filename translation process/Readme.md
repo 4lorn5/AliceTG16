@@ -203,6 +203,7 @@ Care was placed into bringing forward a translation that felt like an official, 
 As mentioned before, MooZ's help was instrumental in finding, extracting and reinserting several of the game's graphics, specially the title screen.
 
 ![Test Image 21](https://i.ibb.co/d2LDQm8/TITLE.png)
+
 *Original title screen on the left; our translation on the right.*
 
 
