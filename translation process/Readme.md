@@ -79,34 +79,40 @@ According to our table, the diacritic ” equals a character value of 66. So why
 
 As expected, they're found throughout this portion of code, with 0x01 representing an empty space and 0x66 the ” diacritic, both set a line above; and the next line printing the "Red Magic" name. Every spell in Alice is defined as a Magic Book, and is color-coded: Red Magic, Blue Magic, and so on. For our translation, we opted to replace the diacritics line with the first name, or color, of the book, and use the second line to simply print "Magic".
 
-![Test Image 9](https://i.ibb.co/tbSdLKt/Alice-10.png)
+![Test Image 9](https://i.ibb.co/Lr1BZ9H/Alice-10.png)
 
 For reference, the names of Magic Books themselves (without diacritics) are located at:
 
+```
 レッド マジック
 Red Magic
 A9 AE 93 01 9E 8B AE 87 01
 Between offsets 595F and 5967
-
+```
+```
 ブルー マジック
 Blue Magic
 9B A8 6F 01 9E 8B AE 87 01
 Between offsets 5971 and 5979
-
+```
+```
 グリーン マジック
 Green Magic
 87 2A 6F AD 01 9E 8B AE 87
 Between offsets 5983 and 598B
-
+```
+```
 シルバー マジック
 Silver Magic
 8B A8 99 6F 01 9E 8B AE 87
 Between offsets 5995 and 599D
-
+```
+```
 ゴールド マジック
 Gold Magic
 89 6F A8 93 01 9E 8B AE 87
 Between offsets 59A7 and 59AF
+```
 
 Next were the dialogues. While filler's extracted script pointed us in the right direction, and we quickly found them between offsets 4BACD and 4BC8E, these provided a challenge.
 
