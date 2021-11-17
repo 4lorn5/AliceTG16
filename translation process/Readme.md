@@ -136,9 +136,9 @@ One of the most basic pieces of advice given to romhacking newbies for the purpo
 These are actually fairly intuitive. The first dialogue line, the greeting shared by the rabbits and Cinderella, is set between 4BACD and 4BAD9. Meanwhile, the first dialogue pointer is found at offset 4BA87, and indicates the value CD 7A. Remembering that the PC Engine's HuC6280 architecture is little-endian, meaning it stores the least-significant byte at the smallest address, makes it easier to understand. Another way of thinking of how it handles data is that it reverses byte importance. Example:
 
 ```
-				       Pointer		Pointer value reversed		Offset where text begins	
-1st dialogue	  CD 7A			    7A CD = XXACD					4BA CD	
-2nd dialogue	  DA 7A			    7A DA = XXADA					4BA DA
+		Pointer		Pointer value reversed		Offset where text begins	
+1st dialogue	  CD 7A		     7A CD = XXACD			4BA CD	
+2nd dialogue	  DA 7A		     7A DA = XXADA			4BA DA
 ```
 
 And so on. 7A will represent the starting offset, in this case, 4BAXX. 7B is referencing an offset starting with 4BBXX, and 7C is addressing an offset starting with 4BCXX. The only additional info necessary to keep in mind was that character value 0xFF was used to declare the end of a sentence.
