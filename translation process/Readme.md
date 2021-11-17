@@ -67,7 +67,7 @@ The next step involved fishing for the remaining text. We had the intro and endi
 
 ![Test Image 7](https://i.ibb.co/Jr05NNh/Alice-9.png)
 
-Literally, the first Magic Book at Alice's disposal is called "Red Magic", which allows her a temporary glimpse into hidden power-ups in her surroundings. Notice one important detail when compared to the intro text, however: diacritics are not written right after letters, but above them. With this is mind, we do a value search for the corresponding letters: レッド マジック, which, according to filler's provided table, translates to A9 AE 93 01 9E 8B AE 87 01. Searching the ROM, we find such a value:
+Literally, the first Magic Book at Alice's disposal is called "Red Magic", which allows her a temporary glimpse into hidden power-ups in her surroundings. Notice one important detail when compared to the intro text, however: diacritics are not written right after letters, but above them. With this is mind, we do a value search for the corresponding letters: レット マシック, which, according to filler's provided table, translates to A9 AE 93 01 9E 8B AE 87 01. Searching the ROM, we find such a value:
 
 ![Test Image 7](https://i.ibb.co/7zNBVpL/Alice-6.png) 
 
