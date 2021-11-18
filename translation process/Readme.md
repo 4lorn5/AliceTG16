@@ -231,7 +231,7 @@ However, this is only halfway through Alice's madness. FACE and Sankindo's game 
 
 For Ootake, one of the emulators we tested our translation on, we used the code ```F83E00:97+```. For Mednafen and Magic Engine, we used the codes ```001F1E00 97``` and ```001F1E01 97```, which are inputted separately.
 
-This code is a blessing, but has two drawbacks. One, Alice needs to be hit by something first (such as an enemy, an explosion or touching spikes) in order to trigger the effect, which will make lose one health unit. Secondly, the effect is reset at the start of a sub-stage, meaning she needs to be hit again and subsequently, lose another health unit. But as long as players keep this in mind, that enemies killed may sometimes drop health units, and they also make use of the Red Magic Book to find hidden power-ups throughout the levels, they should be fine.
+This code is a blessing, but has two drawbacks. One, Alice needs to be hit by something first (such as an enemy, an explosion or touching spikes) in order to trigger the effect, which will make her lose one health unit. Secondly, the effect is reset at the start of a sub-stage, meaning she needs to be hit again and subsequently, lose another health unit. But as long as players keep this in mind, that enemies killed may sometimes drop health units, and they also make use of the Red Magic Book to find hidden power-ups throughout the levels, they should be fine.
 
 
 ## Viva NEC!
