@@ -218,7 +218,7 @@ Alice is a pretty standard videogame character, but other than using Magic Books
 
 ## Timing issues
 
-Changing the length of the intro meant that at some point, it would "overflow", placing its code over where the ending text once resided, and making the ending text code begin later. Alice doesn't read either data in a linear fashion; it uses a timing system that defines how long the intro lasts, and at what point the ending text begins and ends. Fortunately, MooZ was able to track down the code responsbible for this. And what better person to explain this than MooZ himself?
+Changing the length of the intro meant that at some point, it would "overflow", placing its code over where the ending text once resided, and making the ending text code begin later. Alice doesn't read either data in a linear fashion; it uses a timing system that defines how long the intro lasts, and at what point the ending text begins and ends. Fortunately, MooZ was able to track down the code responsible for this. And what better person to explain this than MooZ himself?
 
 
 ## Find a good way to playtest changes
