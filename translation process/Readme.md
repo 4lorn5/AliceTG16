@@ -151,7 +151,7 @@ The way the game uses diacritics in dialogues threw us off initially; if you rem
 
 ![Test Image 15](https://i.ibb.co/Wk9VD1H/DIACRITICS.png)
 
-How does it work? Let's think back to Alice's dialogues. There are a total of 12 dialogues will be used during the game. 
+How does it work? Let's think back to Alice's dialogues. There are a total of 12 dialogues used during the game. 
 
 ```
 4B9BD : 02 01 00 01 02 01 02 02 03 
