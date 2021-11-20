@@ -218,8 +218,27 @@ Alice is a pretty standard videogame character, but other than using Magic Books
 
 ## Timing issues
 
-Changing the length of the intro meant that at some point, it would "overflow", placing its code over where the ending text once resided, and making the ending text code begin later. Alice doesn't read either data in a linear fashion; it uses a timing system that defines how long the intro lasts, and at what point the ending text begins and ends. Fortunately, MooZ was able to track down the code responsible for this. And what better person to explain this than MooZ himself?
+Changing the length of the intro meant that at some point, it would "overflow", placing its code over where the ending text once resided, and making the ending text code begin later. Alice doesn't read either data in a linear fashion; it uses a timing system that defines how long the intro lasts, and at what point the ending text begins and ends. Fortunately, MooZ was able to track down the code responsible for this. 
+Those durations are both hard coded at 34017 and 340af.
+```
+; intro duration
+8017: lda #$d3
+8019: sta $2780
+801C: lda #$10
+801E: sta $2781
 
+...
+
+; ending duration
+80af: lda #$80
+80b1: sta $2780
+80b4: lda #$05
+80b6: sta $2781
+
+```
+
+The durations are expresed as frame counts. The intro thus lasts `0x10d3` frames and the ending `0x580`. As the PC Engine video output runs at 60 frames per seconds, a simple division will gives us `71` seconds for the intro and `23` seconds for the ending. 
+In the end we needed to add `2` seconds to the intros. Adding `0x78` (`2*60`) to the original duration (`0x10d3`) did the trick.
 
 ## Find a good way to playtest changes
 
