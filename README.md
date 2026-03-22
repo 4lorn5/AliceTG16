@@ -19,5 +19,5 @@ Small and compact Python patcher (with GUI). Simple to use:
 
 The original game ROM must pass the following checks:
 
-File/ROM SHA-1: C266B05DD367B2973399B8DAFF7C4DC33BEBEDD9
+File/ROM SHA-1: C266B05DD367B2973399B8DAFF7C4DC33BEBEDD9  
 File/ROM CRC32: 12C4E6FD
